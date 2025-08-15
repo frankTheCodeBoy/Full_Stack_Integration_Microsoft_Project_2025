@@ -1,0 +1,84 @@
+@page "/fetchproducts"
+@using System.Text.Json
+@using Shared
+@inject HttpClient Http
+@inject IJSRuntime JSRuntime
+
+
+<h3>Product List</h3>
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p style="color: red;">@errorMessage</p>
+}
+else if (products != null)
+{
+    <ul>
+        @foreach (var product in products)
+        {
+            <li>#@product.Id | Product: @product.Name - $@product.Price | Stock: @product.Stock | Category: @product.Category.Name</li>
+        }
+    </ul>
+}
+else
+{
+    <p>Loading...</p>
+}
+
+@code {
+    private Product[]? products;
+    private string? errorMessage;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Check session storage for cached products
+            var cachedProductsJson = await JSRuntime.InvokeAsync<string>("sessionStorage.getItem", "products");
+            if (!string.IsNullOrEmpty(cachedProductsJson))
+            {
+                Console.WriteLine("Using cached products.");
+                products = JsonSerializer.Deserialize<Product[]>(cachedProductsJson, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+                return;
+            }
+
+            // Fetch from API if not cached
+            Console.WriteLine("No cached products found.");
+            var response = await Http.GetAsync("/api/products");
+            if (response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                products = JsonSerializer.Deserialize<Product[]>(responseContent, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+                // Cache the products in session storage
+                var serializedProducts = JsonSerializer.Serialize(products);
+                await JSRuntime.InvokeVoidAsync("sessionStorage.setItem", "products", serializedProducts);
+            }
+            else
+            {
+                errorMessage = $"Error fetching products: {response.ReasonPhrase}";
+            }
+        }
+        // Handle potential exceptions
+        catch (HttpRequestException)
+        {
+            errorMessage = "Network error: Unable to reach the server.";
+        }
+        catch (JsonException)
+        {
+            errorMessage = "Data error: Unable to parse product information.";
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Unexpected error: {ex.Message}";
+        }
+    }
+
+
+    
+}
