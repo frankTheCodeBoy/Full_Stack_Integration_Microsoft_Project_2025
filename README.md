@@ -29,11 +29,11 @@ The certificate validates job-ready proficiency in:
 
 ## 🧩 Project Features
 
-- 🔐 **Authentication & Authorization**: Role-based access control using ASP.NET Identity
-- 🧮 **Database Integration**: SQL Server with Entity Framework Core
-- 🧱 **Modular Architecture**: Clean separation of concerns across layers
-- 📈 **Performance Optimization**: Caching, async operations, and profiling
-- 🚀 **Deployment Ready**: CI/CD pipeline compatibility and cloud readiness
+- 🔐 **Authentication & Authorization**: Role-based access control using ASP.NET Identity  
+- 🧮 **Database Integration**: SQL Server with Entity Framework Core  
+- 🧱 **Modular Architecture**: Clean separation of concerns across layers  
+- 📈 **Performance Optimization**: Caching, async operations, and profiling  
+- 🚀 **Deployment Ready**: CI/CD pipeline compatibility and cloud readiness  
 
 ---
 
@@ -67,6 +67,62 @@ Full_Stack_Integration_Microsoft_Project_2025/
 ├── README.md             # Project documentation
 ├── LICENSE               # MIT License
 ```
+
+---
+
+## ⚙️ Project Setup
+
+To run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/frankTheCodeBoy/Full_Stack_Integration_Microsoft_Project_2025.git
+   ```
+
+2. **Navigate to the solution folder**
+   ```bash
+   cd Full_Stack_Integration_Microsoft_Project_2025
+   ```
+
+3. **Restore dependencies**
+   ```bash
+   dotnet restore
+   ```
+
+4. **Apply EF Core migrations**
+   ```bash
+   dotnet ef database update --project Server
+   ```
+
+5. **Run the application**
+   ```bash
+   dotnet run --project Server
+   ```
+
+6. Open your browser and navigate to `https://localhost:5001`
+
+---
+
+## 🤝 Collaboration
+
+Contributions are welcome! This project was developed using a modern, collaborative workflow powered by:
+
+- **Git & GitHub** – Version control, branching, and pull requests  
+- **Visual Studio & VS Code** – Development and debugging environments  
+- **Microsoft Copilot** – AI-assisted coding, refactoring, and documentation  
+- **GitHub Actions** – CI/CD pipeline setup and automated testing  
+- **Entity Framework Core CLI** – Database migrations and schema management  
+- **.NET CLI** – Project scaffolding, builds, and runtime execution
+
+To collaborate:
+
+1. Fork the repository  
+2. Create a new branch (`git checkout -b feature-name`)  
+3. Commit your changes (`git commit -m "Add feature"`)  
+4. Push to your branch (`git push origin feature-name`)  
+5. Open a pull request
+
+Please ensure your code aligns with the existing architecture and includes relevant documentation or comments.
 
 ---
 
