@@ -24,15 +24,16 @@ This capstone demonstrates:
 | DevOps           | GitHub Actions (CI/CD Ready)   |
 
 
-## 🧠 Copilot Collaboration
+## 🧠 Collaboration
 
-Microsoft Copilot was instrumental in:
+Contributions are welcome! This project was developed using a modern, collaborative workflow powered by:
 
-- 🔧 Generating boilerplate code for Blazor HttpClient calls  
-- 🐞 Diagnosing CORS and base address issues during debugging  
-- 📐 Suggesting strongly-typed models for maintainability  
-- ⚙️ Optimizing redundant API calls and improving performance  
-- 📚 Supporting markdown documentation for revision and demonstration  
+- **Git & GitHub** – Version control, branching, and pull requests  
+- **Visual Studio & VS Code** – Development and debugging environments  
+- **Microsoft Copilot** – AI-assisted coding, refactoring, and documentation  
+- **GitHub Actions** – CI/CD pipeline setup and automated testing  
+- **Entity Framework Core CLI** – Database migrations and schema management  
+- **.NET CLI** – Project scaffolding, builds, and runtime execution
 
 ## 🚀 Getting Started
 
@@ -93,6 +94,7 @@ Microsoft Certified Full-Stack Developer
 Feel free to fork, star ⭐, or open issues. Contributions are welcome!
 
 ---
+
 
 
 
