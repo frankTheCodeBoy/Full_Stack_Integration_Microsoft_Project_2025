@@ -26,7 +26,7 @@ This capstone demonstrates:
 
 ## 🧠 Collaboration
 
-Contributions are welcome! This project was developed using a modern, collaborative workflow powered by:
+This project was developed using a modern, collaborative workflow powered by:
 
 - **Git & GitHub** – Version control, branching, and pull requests  
 - **Visual Studio & VS Code** – Development and debugging environments  
@@ -94,6 +94,7 @@ Microsoft Certified Full-Stack Developer
 Feel free to fork, star ⭐, or open issues. Contributions are welcome!
 
 ---
+
 
 
 
