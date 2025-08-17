@@ -82,5 +82,18 @@ This certificate affirms job-ready proficiency in:
 This project is licensed under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute this code with proper attribution.
 
+## 🙋‍♂️ Author
+
+**Francis Olum**  
+Microsoft Certified Full-Stack Developer  
+📫 [GitHub Profile](https://github.com/frankTheCodeBoy)
+
 ---
+
+## 💬 Feedback & Contributions
+
+Feel free to fork, star ⭐, or open issues. Contributions are welcome!
+
+---
+
 
