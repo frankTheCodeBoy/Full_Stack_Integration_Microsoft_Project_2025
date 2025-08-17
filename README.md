@@ -13,6 +13,7 @@ This capstone demonstrates:
 - 📄 API documentation via Swagger  
 - 🧱 Modular architecture for scalability and maintainability  
 
+---
 ## 🛠️ Tech Stack
 
 | Layer        | Technology                                      |
@@ -24,6 +25,7 @@ This capstone demonstrates:
 | Documentation | Swagger / Swashbuckle                          |
 | Persistence   | Entity Framework Core, SQL Server             |
 
+---
 
 ## 🧠 Copilot Collaboration
 
@@ -34,6 +36,8 @@ Microsoft Copilot was instrumental in:
 - 📐 Suggesting strongly-typed models for maintainability
 - ⚙️ Optimizing redundant API calls and improving performance
 - 📚 Supporting markdown documentation for revision and demonstration
+
+---
 
 ## 🚀 Getting Started
 
@@ -60,6 +64,8 @@ dotnet ef database update
 dotnet run
 ```
 
+---
+
 ## 🎓 Certification Context
 
 This repository is part of the **Microsoft Full-Stack Developer Professional Certificate** — a 12-course specialization delivered via Coursera.
@@ -78,10 +84,14 @@ This certificate affirms job-ready proficiency in:
 - ✅ Optimizing performance and deploying with DevOps practices  
 - ✅ Designing modular, production-grade full-stack architectures  
 
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute this code with proper attribution.
+
+---
 
 ## 🙋‍♂️ Author
 
@@ -89,11 +99,14 @@ You are free to use, modify, and distribute this code with proper attribution.
 Microsoft Certified Full-Stack Developer  
 📫 [GitHub Profile](https://github.com/frankTheCodeBoy)
 
+---
+
 ## 💬 Feedback & Contributions
 
 Feel free to fork, star ⭐, or open issues. Contributions are welcome!
 
 ---
+
 
 
 
