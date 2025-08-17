@@ -13,20 +13,19 @@ A modular, production-grade full-stack web application built with **Blazor**, **
 
 This repository was created as part of the **Microsoft Full-Stack Developer Professional Certificate** offered on Coursera.
 
-It represents the final capstone for the specialization titled:
+It represents the final capstone for the specialization titled:  
 **"Full-Stack Integration"**  
-
 Completed by **Francis Olum** on **August 16, 2025**.  
 🔗 [Verified Certificate – Coursera](https://coursera.org/verify/professional-cert/PZIW9EU04LNW)
 
-The certificate validates job-ready proficiency in:
+This certificate affirms job-ready proficiency in:
 
-- ✅ Front-end development with **Blazor**
-- ✅ Back-end APIs using **ASP.NET Core**
-- ✅ Database integration with **Entity Framework**
-- ✅ Secure authentication and role-based access
-- ✅ Performance optimization and DevOps deployment
-- ✅ Scalable architecture and modular design
+- ✅ Building responsive front-end interfaces with Blazor  
+- ✅ Developing secure, scalable APIs using ASP.NET Core  
+- ✅ Integrating relational databases via Entity Framework  
+- ✅ Implementing authentication, authorization, and role-based access  
+- ✅ Optimizing performance and deploying with DevOps practices  
+- ✅ Designing modular, production-grade full-stack architectures  
 
 ---
 
@@ -140,5 +139,6 @@ Microsoft Certified Full-Stack Developer
 ## 💬 Feedback & Contributions
 
 Feel free to fork, star ⭐, or open issues. Contributions are welcome!
+
 
 
