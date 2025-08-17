@@ -12,8 +12,10 @@ A modular, production-grade full-stack web application built with **Blazor**, **
 ## 🎓 Certification Context
 
 This repository was created as part of the **Microsoft Full-Stack Developer Professional Certificate** offered on Coursera.
+
 It represents the final capstone for the specialization titled:
 **"Full-Stack Integration"**  
+
 Completed by **Francis Olum** on **August 16, 2025**.  
 🔗 [Verified Certificate – Coursera](https://coursera.org/verify/professional-cert/PZIW9EU04LNW)
 
@@ -138,4 +140,5 @@ Microsoft Certified Full-Stack Developer
 ## 💬 Feedback & Contributions
 
 Feel free to fork, star ⭐, or open issues. Contributions are welcome!
+
 
