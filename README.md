@@ -15,14 +15,14 @@ This capstone demonstrates:
 
 ## 🛠️ Tech Stack
 
-| Layer        | Technology                                      |
-|-------------|--------------------------------------------------|
-| Frontend     | Blazor WebAssembly / Blazor Server              |
-| Backend      | ASP.NET Core Web API                            |
-| Authentication | ASP.NET Identity, JWT, OAuth                 |
-| Middleware    | Custom logging, error handling                 |
-| Documentation | Swagger / Swashbuckle                          |
-| Persistence   | Entity Framework Core, SQL Server             |
+| Layer            | Stack                          |
+|------------------|--------------------------------|
+| Front-End        | Blazor (.NET 8)                |
+| Back-End         | ASP.NET Core Web API           |
+| Database         | SQL Server + Entity Framework  |
+| Auth & Security  | ASP.NET Identity               |
+| DevOps           | GitHub Actions (CI/CD Ready)   |
+
 
 ## 🧠 Copilot Collaboration
 
@@ -93,6 +93,7 @@ Microsoft Certified Full-Stack Developer
 Feel free to fork, star ⭐, or open issues. Contributions are welcome!
 
 ---
+
 
 
 
